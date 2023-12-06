@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#container
+{
+  border: 2px solid black;
+  width: 210px;
+  height: 315px;
+  align-self: center;
+  
+  
+}
+#container h1{
+  text-align: center;
+}
+#screen{
+  margin-left: 2px;
+  
+  /* padding-left: 10px; */
+  font-size: 20px;
+  width: 205px;
+  height: 28px;
+  
+}
+#buttons-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button{
+  width: 45px;
+  height: 45px;
+  margin: 2px;
+  padding: 2px;
+}
