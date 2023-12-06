@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  text-align: center;
+}
 
 #container
 {
@@ -9,6 +12,7 @@
   width: 210px;
   height: 315px;
   align-self: center;
+  margin: auto;
   
   
 }
