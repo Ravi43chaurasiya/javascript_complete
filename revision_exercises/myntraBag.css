@@ -1,0 +1,29 @@
+button{
+  border-radius: 25px;
+}
+button:hover{
+  transform: scale(0.5);
+}
+#container{
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+
+}
+h2{
+  text-align: center;
+}
+#one{
+  padding: 20px;
+  border: none;
+  background-color: lightgreen;
+}
+#two
+{
+  padding: 35px;
+}
+#three{
+  padding: 2px;
+  border: none;
+  background-color: lightgreen
+}

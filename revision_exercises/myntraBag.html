@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bag</title>
+  <link rel="stylesheet" href="myntraBag.css">
+</head>
+<body>
+  <div id="container">
+    <button id="one" onclick="
+    item++;
+    document.querySelector('#item').innerText=`your bag has ${item} items`;
+      "
+      >add to bag</button>
+    <button id="two" onclick="
+    item--;
+    document.querySelector('#item').innerText=`your bag has ${item} items`;">move to wishlist</button>
+    <button id="three" onclick="
+    item +=2;
+    document.querySelector('#item').innerText=`your bag has ${item} items`;
+    ">add 1+1 sale item</button>
+    
+  </div>
+  <h2 id="item"></h2>
+</body>
+<script>
+  let item=0;
+  document.querySelector('#item').innerText=`your bag has ${item} items`;
+</script>
+</html>
