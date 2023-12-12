@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Date in js</title>
+  <title>Date and DOM</title>
 </head>
 <body>
+
+  <div class="my-div">This is the div</div>
+
   <script>
-    let myDate=new Date();
-    console.log(myDate);
-    console.log(myDate.getDate());
-    console.log(myDate.getDay());
-    console.log(myDate.getFullYear());
-    console.log(myDate.getHours());
-    console.log(myDate.getMinutes());
-    console.log(myDate.getMonth());
-    console.log(myDate.getSeconds());
-    console.log(myDate.getTimezoneOffset);
-    console.log(myDate.getTime());
-    console.log(myDate.getUTCDate());
-    console.log(myDate.getUTCDay);
+    // let myDate = new Date();
+    // console.log(myDate.getTime());
+    // console.log(myDate.getFullYear());
+    // console.log(myDate.getDay());
+    // console.log(myDate.getHours());
+    // console.log(myDate.getMinutes());
+    // console.log(myDate.getMilliseconds());
+
+    let button = document.createElement('Button');
+    button.innerText = 'Click Me';
+    document.querySelector('.my-div').appendChild(button);
+    document.querySelector('.my-div').removeChild(button);
   </script>
 </body>
 </html>
